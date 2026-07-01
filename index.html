@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f9f9f9;
+    }
+
+    header {
+      background: #1f2937;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 24px;
+      font-weight: 500;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    .hero {
+      background: #fff;
+      border-radius: 12px;
+      padding: 48px 36px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      margin-bottom: 32px;
+    }
+
+    .hero h1 {
+      margin: 0 0 16px;
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    section {
+      margin-bottom: 32px;
+      padding: 32px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    }
+
+    section h2 {
+      margin-top: 0;
+      color: #111827;
+    }
+
+    .skill-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .skill-list li {
+      background: #eef2ff;
+      padding: 14px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      color: #1d4ed8;
+    }
+
+    .project-list,
+    .experience-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .project-item,
+    .experience-list li {
+      background: #eef2ff;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 18px;
+    }
+
+    .project-item h3,
+    .experience-list strong {
+      margin: 0 0 8px;
+      display: block;
+      color: #1d4ed8;
+    }
+
+    .experience-list li p {
+      margin: 0;
+      color: #334155;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Idris D. Roberts</div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Hello! I am passionate about data science and building data-driven solutions that help organizations uncover insights and make smarter decisions.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a data science enthusiast with experience in statistics, machine learning, and data visualization. I enjoy exploring datasets, finding patterns, and communicating results clearly through dashboards and reports.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li>Python</li>
+        <li>Machine Learning</li>
+        <li>Data Analysis</li>
+        <li>Data Visualization</li>
+        <li>SQL</li>
+        <li>Statistics</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Technical Projects</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <h3>Practical Contracting Solutions Estimating & Proposal Platform</h3>
+          <p>Designed and developed a custom business application that generates industry-standard estimates and professional proposals, automating pricing, proposal creation, and customer-facing documentation workflows.</p>
+        </div>
+        <div class="project-item">
+          <h3>EchoSurvive – AI-Assisted Horror Game</h3>
+          <p>Built an AI-assisted game prototype using modular architecture, structured development practices, and iterative AI workflows to create immersive gameplay and intelligent interactions.</p>
+        </div>
+        <div class="project-item">
+          <h3>TripleTen AI/ML Projects</h3>
+          <p>Completed 18 AI/ML engineering sprints, developing machine learning, predictive analytics, and data analysis projects that demonstrate practical model-driven solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Professional Experience</h2>
+      <ul class="experience-list">
+        <li>
+          <strong>Practical Contracting Solutions Inc.</strong> | Founder & President | Present
+          <p>Lead a contracting and technology company focused on business process improvement, designing a proprietary estimating and proposal generation platform while overseeing strategy, operations, finance, and technology.</p>
+        </li>
+        <li>
+          <strong>R&amp;L Carriers</strong> | LTL Driver | July 2025 – Present
+          <p>Manage time-sensitive LTL freight operations with a focus on safety, compliance, route efficiency, and customer service.</p>
+        </li>
+        <li>
+          <strong>Fuel South Express</strong> | Fuel Transport Driver | September 2023 – June 2025
+          <p>Handled hazardous materials transportation with strict DOT compliance, safety procedures, and precise reporting.</p>
+        </li>
+        <li>
+          <strong>Civil Trucking LLC</strong> | Founder & Operations Manager | 2017 – 2023
+          <p>Founded and operated a trucking authority, managing transportation operations, dispatch, compliance, budgeting, route optimization, and business planning.</p>
+        </li>
+        <li>
+          <strong>Bright House Networks / Spectrum</strong> | Service Technician | 2010 – 2017
+          <p>Installed, maintained, and troubleshot telecommunications and networking infrastructure while supporting customers with connectivity solutions.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
